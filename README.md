@@ -1,4 +1,6 @@
 # README
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/spielhoelle/rick-and-morty-gem-examle-app.svg)](https://greenkeeper.io/)
 ```
 class WelcomeController < ApplicationController
   protect_from_forgery with: :exception
