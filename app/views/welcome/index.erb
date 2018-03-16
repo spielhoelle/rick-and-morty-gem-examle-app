@@ -1,0 +1,19 @@
+<h2>Episodes:</h2>
+<% @e.each do |episode| %>
+  <%= episode["name"] %>
+<% end %>
+<hr>
+<h2>Characters:</h2>
+<% @c.each do |char| %>
+  <%= char["name"] %>
+<% end %>
+<hr>
+<h2>Locations:</h2>
+<% @l.each do |loc| %>
+  <%= loc["name"] %>
+<% end %>
+<hr>
+<h2>Single Characters:</h2>
+<%= @rick["name"] %>
+<hr>
+<%= @morty["name"] %>

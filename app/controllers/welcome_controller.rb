@@ -1,5 +1,3 @@
-# README
-```
 class WelcomeController < ApplicationController
   protect_from_forgery with: :exception
   def index
@@ -10,4 +8,3 @@ class WelcomeController < ApplicationController
     @morty = Rickmorty::Character.new.by_id(2)
   end
 end
-```
